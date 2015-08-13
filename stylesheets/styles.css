@@ -1,0 +1,298 @@
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+/* CSS Document */
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	background: url(../images/crossword.png);
+}
+
+.wrap {
+	width: 1028px; 
+	margin: 0 auto; 
+	padding: 0; 
+}
+
+
+header {
+	background-color: #BDBBBC;
+	width: 1028px;
+	height: 145px;
+	position: relative;
+	border-bottom: solid;
+	border-width: 3px;
+	border-color: #FFF;
+}
+
+.logo {
+	padding: 20px 5px 20px 10px;
+	float: left;
+}
+
+h1 {
+	margin-top: 0px;
+	padding-top: 30px;
+	font-size: 45px;
+	line-height: 1em;
+	letter-spacing: -2px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 35px;
+	color: #FFF;
+	margin: 0px 0px 10px 0px;
+	padding: 10px 0px 5px 0px;
+	background-color: #BDBBBC;
+}
+
+.services h2 {
+	font-size: 22px;
+	padding: 5px 5px 0px 5px;
+	margin: 0px;
+	text-align: center;
+}
+
+
+
+h3 {
+	font-size: 22px;
+	margin: 0px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul {
+	float: right;
+	margin: 0px;
+	position: absolute;
+	bottom: 25px;
+	right: 5px;
+
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	-webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+	padding: 15px;
+	font-size: 25px;
+}
+
+nav a:hover {
+	color: #FFF;
+}
+
+.current {
+	color: #FFF;
+}
+
+.main {
+	font-family: 'Duru Sans', sans-serif;
+	position: relative;
+	width: 1028px;
+}
+
+#images {
+	position: relative;
+}
+
+.info {
+	z-index: 10000;
+	position: absolute;
+	width: 1028px;
+}
+
+.info p {
+	margin:120px 0px 0px 0px;
+	font-size:35px;
+	text-align: center;
+}
+
+.rotate {
+	font-size: 175px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.box {
+	background-color: #FFF;
+	height: 400px;
+	width: 800px;
+	z-index: 10000;
+	position: absolute;
+	top: 60px;
+	left: 85px;
+	padding: 30px;
+}
+
+.form {
+	font-size: 18px;
+	display: block;
+	padding: 10px;
+}
+
+#name, #email {
+	height: 30px;
+	width: 775px;
+	margin: 5px 0px;
+}
+
+#message {
+	height: 175px;
+	width: 775px;
+	margin: 5px 0px;
+}
+
+input#name, input#email, input#message {
+	font-size: 18px;
+	border: 2px solid #B9B9B9;
+}
+
+
+input[type=submit] {
+	padding:5px 15px;
+	margin-top: 10px;
+	border-radius: 0px;
+	border: 2px solid #B9B9B9;
+	background-color: white;
+	cursor: pointer;
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 18px;
+}
+
+input[type=submit]:hover {
+	background-color: #BDBBBC;
+}
+
+input#name:focus, input#email:focus, input#message:focus {
+	outline: none;
+	border: 2px solid #666;
+}
+
+.bio {
+	width: 550px;
+	height: 500px;
+	float: right;
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 22px;
+	margin: 10px 30px 0px 0px;
+	line-height: 1.5em;
+}
+
+.larry {
+	margin: 15px 0px 0px 10px;
+}
+
+.days {
+	height: 400px;
+	width: 800px;
+	position: relative;
+}
+
+.yoga {
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	left: 20px;
+	top: 25px;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #BDBBBC
+}
+
+.fitness {
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	right: 20px;
+	top: 25px;
+	font-size: 18px; 
+	text-align: center;
+	border: 1px solid #BDBBBC;
+}
+
+.days p {
+	margin: 0px;
+	line-height: 1.35em;
+}
+
+.days a {
+	color:#000;
+}
+
+.days a:hover {
+	background-color: #BDBBBC;
+	text-decoration: none;
+}
+
+.services {
+	padding: 20px;
+}
+
+.services p {
+	margin: 0px;
+	padding: 15px;
+	font-size: 16px;
+	border: 1px solid #BDBBBC;
+	line-height: 1.5em;
+}
+
+.services p:nth-child(7) {
+	border: none;
+	font-size: 14px;
+	margin: 20px -10px 0px -10px;
+}
+
+
+footer {
+	height: 60px;
+	width: 1028px;
+	font-size: 18px;
+	background-color: #BDBBBC;
+	border-top: solid;
+	border-width: 3px;
+	border-color: #FFF;
+	position:relative;
+}
+
+.copy {
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+}
+
+.bottom {
+	padding-bottom: 20px;
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+}
+
+.bottom a {
+	padding: 20px 15px 0px 5px;
+	text-decoration: none;
+	color: #000;
+}
+
+.bottom a:hover {
+	color: #FFF;
+}
+	
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

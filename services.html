@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Swell Fitness</title>
+<link type="text/css" href="stylesheets/styles.css" rel="stylesheet">
+<link type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+
+<script> 
+   $(document).ready(function(){
+	   console.log("working");
+	   $("#images").slidesjs({
+		    width: 1028,
+        	height: 580,
+		play: {
+      active: false,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "fade",
+        // [string] Can be either "slide" or "fade".
+      interval: 2000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false
+        // [boolean] pause a playing slideshow on hover
+         // [number] restart delay on inactive slideshow
+    },
+	navigation: {
+      active: false,
+        // [boolean] Generates next and previous buttons.
+        // You can set to false and use your own buttons.
+        // User defined buttons must have the following:
+        // previous button: class="slidesjs-previous slidesjs-navigation"
+        // next button: class="slidesjs-next slidesjs-navigation"
+      effect: "slide"
+        // [string] Can be either "slide" or "fade".
+	},
+	pagination: {
+      active: false,
+        // [boolean] Create pagination items.
+        // You cannot use your own pagination. Sorry.
+      effect: "slide"
+        // [string] Can be either "slide" or "fade".
+    },
+	 effect: {
+      fade: {
+        speed: 0,
+          // [number] Speed in milliseconds of the fade animation.
+        crossfade: true,
+          // [boolean] Cross-fade the transition.
+      }
+	 }
+      	});
+    });
+</script>
+</head>
+
+<body>
+<div class="wrap">
+<header>
+<div class="header group">
+	<a href="index.html"><img src="images/logo.png" alt="swell movement logo" class="logo"></a>
+    <h1>Swell<br>Movement</h1>
+        <nav>
+             <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About</a></li> 
+                <li><a href="services.html" class="current">Services</a></li> 
+                <li><a href="schedule.html">Schedule</a></li> 		
+                <li><a href="contact.html">Contact</a></li> 		
+            </ul>
+    	</nav>
+</div><!--ends header group-->
+</header>
+<div class="main">
+<div class="box">
+<div class="services">
+	<h2>One-On-One Personal Sessions</h2>
+    <p>Offering custom one-on-one sessions with a fitness program that is tailored specifically for you to help you reach your fitness goals quickly and efficiently.</p>
+<h2>Small Group Training Sessions</h2>
+    <p>Offering sessions to meet your groups’ needs that are small in size so that each participant gets the individualized attention they deserve.</p> 
+    <h2>Corporate Wellness</h2>
+    <p>Offering coprporate wellness classses to assist your employees in developing healthier lifestyle habits, increasing morale, and reducing health care costs.</p>
+    <p>*prices vary-contact for details</p>
+    </div><!--ends services-->
+    </div><!--ends box-->
+<div id="images">
+    	<img src="images/pushup.jpg" alt="man doing pushup">
+    	<img src="images/hand.jpg" alt="hands in prayer">
+    	<img src="images/crow.jpg" alt="woman doing yoga pose">
+	</div><!--ends images-->
+	</div><!--ends main-->
+<footer>
+<div class="footer">
+	<p class="copy">&copy;2014 Swell Movement</p>
+<div class="bottom">
+	<i class="fa fa-phone"></i><a href="call:267-226-8828">267-226-8828</a>
+	<i class="fa fa-envelope"></i><a href="mailto:info@swellmovement.com">info@swellmovement.com</a>
+</div><!--ends bottom contact-->
+</div><!--ends footer group-->
+</footer>
+</div><!--endswrap-->    
+</body>
+</html>
